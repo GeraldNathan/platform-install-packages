@@ -136,8 +136,8 @@ Note that you may choose different NFS settings which is fine so long as:
 
 Then set priviliges accordingly:
 ```
-# groupadd -r kaltura -g7373
-# useradd -M -r -u7373 -d /opt/kaltura -s /bin/bash -c "Kaltura server" -g kaltura kaltura
+# groupadd -r kaltura -g613
+# useradd -M -r -u613 -d /opt/kaltura -s /bin/bash -c "Kaltura server" -g kaltura kaltura
 # groupadd -g 48 -r apache
 # useradd -r -u 48 -g apache -s /sbin/nologin -d /var/www -c "Apache" apache
 # usermod -a -G kaltura apache
